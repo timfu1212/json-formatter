@@ -50,7 +50,7 @@ JSON 是現代開發者的日常語言，但在快速開發中，我們需要的
 
 ## 🚀 快速開始
 
-1. 下載 `index.html`。
+1. 下載 `index.html` `style.css` `script.js`  。
 2. 在瀏覽器中直接開啟。
 3. 開始你的流暢 JSON 處理旅程！
 
