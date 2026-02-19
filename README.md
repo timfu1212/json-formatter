@@ -1,6 +1,6 @@
 # 🛠️ JSON formatter: 極簡暗黑 JSON 工程師助手
 
-![JSON Toolkit Preview](https://img.shields.io/badge/Status-Complete-brightgreen)
+![JSON Formatter Preview](https://img.shields.io/badge/Status-Complete-brightgreen)
 ![Tech Stack](https://img.shields.io/badge/Tech-Pure_JS_/_HTML_/_CSS-blue)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
@@ -16,6 +16,7 @@ JSON 是現代開發者的日常語言，但在快速開發中，我們需要的
 - **深度工程展現**：整合了語法解析演算法、複雜的 DOM 操作與極致的 UX 設計。
 
 ---
+
 ## 🔍 關於這個專案
 
 **JSON Toolkit** 是一個為開發者打造的輕量化 JSON 處理工具，特色是：
@@ -26,42 +27,48 @@ JSON 是現代開發者的日常語言，但在快速開發中，我們需要的
 - 📦 **單一檔案**：下載即用，適合嵌入任何專案
 
 ### 適合誰使用？
+
 - 👨‍💻 **前端開發者**：快速格式化 API 回應資料
 - 👩‍💻 **後端工程師**：驗證設定檔、檢視日誌 JSON
 - 🧑‍🏫 **教學用途**：示範 JSON 結構、巢狀資料視覺化
 
 ### 關鍵字
+
 `JSON工具` `JSON格式化` `JSON驗證` `CSV轉換` `樹狀檢視` `開發者工具` `暗黑主題`
 
 ---
 
 ## ✨ 核心功能列表
 
-| 功能 | 說明 |
-| :--- | :--- |
-| ⚡ **Format** | 支援一鍵格式化並提供 **Syntax Highlight**（語法高亮）。 |
-| ⬛ **Minify** | 快速將 JSON 壓縮成單行，並同步顯示精確的 **Bytes 大小**。 |
-| ✔️ **Validate** | 提供強大的語法檢查，能精確提示**錯誤發生位置**。 |
-| 🌳 **Tree View** | 可摺疊的互動式樹狀結構瀏覽器，輕鬆導航複雜的巢狀物件。 |
-| 📊 **CSV View** | 內建轉換器，能將 JSON Array 直接轉成可視化表格。 |
-| 📋 **Export** | 支援快速複製、下載 `.json` 或 `.csv` 檔案。 |
-| 📈 **Stats Bar** | 即時監控：Key 數量、巢狀深度、檔案大小一目了然。 |
-| ⌨️ **Keyboard shortcuts** | 支援 `Ctrl + Enter` 快速格式化，提升操作效率。 |
+| 功能                      | 說明                                                      |
+| :------------------------ | :-------------------------------------------------------- |
+| ⚡ **Format**             | 支援一鍵格式化並提供 **Syntax Highlight**（語法高亮）。   |
+| ⬛ **Minify**             | 快速將 JSON 壓縮成單行，並同步顯示精確的 **Bytes 大小**。 |
+| ✔️ **Validate**           | 提供強大的語法檢查，能精確提示**錯誤發生位置**。          |
+| 🌳 **Tree View**          | 可摺疊的互動式樹狀結構瀏覽器，輕鬆導航複雜的巢狀物件。    |
+| 📊 **CSV View**           | 內建轉換器，能將 JSON Array 直接轉成可視化表格。          |
+| 📋 **Export**             | 支援快速複製、下載 `.json` 或 `.csv` 檔案。               |
+| 📈 **Stats Bar**          | 即時監控：Key 數量、巢狀深度、檔案大小一目了然。          |
+| ⌨️ **Keyboard shortcuts** | 支援 `Ctrl + Enter` 快速格式化，提升操作效率。            |
 
 ---
 
 ## 🎨 設計美學與亮點
 
 ### 🌌 Dark Terminal 美學
+
 採用深海軍藍為基調，搭配 **酸黃色（Acid Yellow）** 作為重點色（Accent Color），營造出不落俗套的專業科技感。
 
 ### ⌨️ Fira Code 字體
+
 預設導入專業 Monospace 字體，呈現最舒適的程式碼閱讀體驗，讓開發感覺更專業。
 
 ### 🌫️ 點陣紋理背景
+
 使用 **CSS-only 點陣紋理** 創造視覺層次感，讓介面在簡約中保有深度，卻不會喧賓奪主干擾閱讀。
 
 ### 🍱 兩欄佈局
+
 採用 **Sticky Header** 與雙側連動佈局，確保你在編輯與查看樹狀結構時，兩端狀態始終可見。
 
 ---
@@ -69,25 +76,32 @@ JSON 是現代開發者的日常語言，但在快速開發中，我們需要的
 ## ⚠️ 使用須知
 
 ### 檔案大小限制
+
 本工具為純前端執行，為確保瀏覽器效能順暢：
+
 - ✅ **建議**：處理 5MB 以下的 JSON 檔案
 - ⚠️ **注意**：貼上大於 10MB 的 JSON 可能導致畫面暫時卡頓
 - 💡 **提示**：如遇大型檔案，請耐心等待或分段處理
 
 ### CSV 轉換說明
+
 將 JSON 轉為 CSV 表格時：
+
 - ✅ **最佳格式**：陣列中包含相同結構的物件
   ```json
   [
     { "name": "Tim", "age": 30 },
     { "name": "Amy", "age": 25 }
   ]
+  ```
 
 ---
 
 ## 🚀 快速開始
+
 本地端:
-1. 下載 `index.html` `style.css` `script.js`  。
+
+1. 下載 `index.html` `style.css` `script.js` 。
 2. 在瀏覽器中直接開啟。
 3. 開始你的流暢 JSON 處理旅程！
 
